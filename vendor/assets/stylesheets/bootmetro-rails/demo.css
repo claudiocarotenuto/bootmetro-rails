@@ -107,7 +107,7 @@ hr.soften {
 }
 .jumbotron h1 {
    font-size: 80px;
-   font-weight: normal;
+   font-weight: 300;
    letter-spacing: -1px;
    line-height: 1;
 }
@@ -131,11 +131,19 @@ hr.soften {
    text-shadow: 0 0 10px rgba(255,255,255,.25);
 }
 
+.jumbotron a.link {
+   color: #4F1ACB;
+   font-size: 13px;
+   font-weight: 300;
+   line-height: 20px;
+}
+
 /* Download button */
 .masthead .btn {
    padding: 19px 24px;
    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
    font-size: 24px;
+   line-height: 28px;;
    font-weight: 400;
    color: #fff; /* redeclare to override the `.jumbotron a` */
    border: 0;
@@ -230,6 +238,38 @@ hr.soften {
    *display: inline;
    *zoom: 1;
 }
+
+
+/*
+Index Donate tile
+*/
+.metro .tile.wide.donate {
+   height: 110px;
+   padding: 20px;
+   width: 270px;
+   cursor: default;
+}
+.metro .tile.wide.donate .text {
+   font-size: 15px;
+   font-weight: normal;
+   height: 18px;
+   line-height: 18px;
+   overflow: hidden;
+   text-align: left;
+}
+.metro .tile.wide.donate .text-header3 {
+   font-size: 30px;
+   font-weight: 300;
+   line-height: 32px;
+   max-height: 110px;
+   overflow: hidden;
+   text-align: left;
+}
+.metro .tile.wide.donate form {
+   margin: 10px auto;
+   text-align: center;
+}
+
 
 /* Subhead (other pages)
 ------------------------- */
@@ -758,10 +798,11 @@ form.bs-docs-example {
    -webkit-border-radius: 0;
    -moz-border-radius: 0;
    border-radius: 0;
-   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-   -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-   box-shadow: 0 1px 4px rgba(0,0,0,.065);
+   /*-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);*/
+   /*-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);*/
+   /*box-shadow: 0 1px 4px rgba(0,0,0,.065);*/
 }
+
 .bs-docs-sidenav > li > a {
    display: block;
    width: 190px \9;
@@ -887,6 +928,8 @@ ListView demo
 .mediumListIconTextItem.selected .mediumListIconTextItem-Image[class*=" icon-"] {
    color: #FFF;
 }
+
+
 
 
 /* Responsive
@@ -1094,3 +1137,29 @@ ListView demo
       float: none;
    }
 }
+
+
+
+/*::-webkit-scrollbar {*/
+   /*width: 17px;*/
+   /*height: 17px;*/
+   /*background-color: #F0F0F0;*/
+   /*border: none;*/
+/*}*/
+/*Pseudo ::-webkit-search-decoration element*/
+
+/*::-webkit-scrollbar-thumb {*/
+   /*background-color: #CDCDCD;*/
+   /*border: 1px solid #F0F0F0;*/
+/*}*/
+/*Pseudo ::-webkit-search-decoration element*/
+
+/*::-webkit-scrollbar-button {*/
+   /*background-color: #F0F0F0;*/
+   /*background:  #F0F0F0 url("/content/img/controls-icon.png");*/
+   /*background-repeat: no-repeat;*/
+/*}*/
+/*Pseudo ::-webkit-search-decoration element*/
+/*::-webkit-scrollbar-corner {*/
+   /*background-color: #F0F0F0;*/
+/*}*/
