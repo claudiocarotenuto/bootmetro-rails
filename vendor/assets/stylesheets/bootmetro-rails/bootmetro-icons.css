@@ -2,8 +2,8 @@
   font-family: 'IcoMoon';
   font-style: normal;
   font-weight: normal;
-  src: url('../font/IcoMoon.eot');
-  src: url('../font/IcoMoon.svg#IcoMoon') format('svg'), url('../font/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../font/IcoMoon.woff') format('woff'), url('../font/IcoMoon.ttf') format('truetype');
+  src: url('../IcoMoon.eot');
+  src: url('../IcoMoon.svg#IcoMoon') format('svg'), url('../IcoMoon.eot?#iefix') format('embedded-opentype'), url('../IcoMoon.woff') format('woff'), url('../IcoMoon.ttf') format('truetype');
 }
 
 [data-icon]:before {
